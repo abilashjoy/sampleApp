@@ -26,7 +26,7 @@ class NinjaBar extends StatelessWidget {
               Center(
                 child: CircleAvatar(
                   backgroundImage: NetworkImage(
-                      'https://upload.wikimedia.org/wikipedia/commons/1/10/Zayn_Wiki_%28cropped%29.jpg'),
+                      'https://avatars.githubusercontent.com/u/74535573?v=4'),
                   radius: 60.0,
                 ),
               ),
@@ -53,7 +53,7 @@ class NinjaBar extends StatelessWidget {
               ),
               SizedBox(height: 30.0),
               Text(
-                'CURRENT ABI LEVEL',
+                'CURRENT ABI AGE',
                 style: TextStyle(
                   color: Colors.grey,
                   letterSpacing: 2.0,
@@ -61,7 +61,7 @@ class NinjaBar extends StatelessWidget {
               ),
               SizedBox(height: 10.0),
               Text(
-                '8',
+                '20',
                 style: TextStyle(
                   color: Colors.amberAccent[200],
                   letterSpacing: 2.0,
